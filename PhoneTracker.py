@@ -9,7 +9,7 @@ from opencage.geocoder import OpenCageGeocode
 
 def loc_result(number):
     phoneNumber = phonenumbers.parse(number)
-    Key = "bfba27605dfc4f5c8ede9c7efeb421f#"
+    Key = "bfba27605dfc4f5c8ede9c7efeb421f#"    #last digit of api key has been changed by author.
     
     yourLocation = geocoder.description_for_number(phoneNumber,"en")
     #print("location : "+yourLocation)
